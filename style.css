@@ -1,0 +1,134 @@
+/*****reset******/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/******general*****/
+:root{
+ --Pale-blue: hsl(225, 100%, 94%);
+ --Bright-blue: hsl(245, 75%, 52%);
+ --Very-pale-blue: hsl(225, 100%, 98%);
+ --Desaturated-blue: hsl(224, 23%, 84%);
+ --Dark-blue: hsl(223, 47%, 23%);
+}
+@font-face {
+    font-family: redHatDisplay;
+    src: url(./fonts/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    
+    background-color:hsl(225, 100%, 94%);
+}
+main{
+    height: 100vh;
+    display: grid;
+    grid-template-rows:0fr 0fr;
+    place-items:center;
+    align-content: center;
+}
+section{
+    width: 300px;
+    height: 353px;
+    background-color: var(--Very-pale-blue);
+    border-bottom-left-radius: 7px;
+    border-style: solid;
+    border-color: var(--Very-pale-blue);
+    border-bottom-right-radius: 7px;
+    box-shadow: 1px 4px 16px var(--Desaturated-blue) ;
+
+}
+.num-1{
+    width: 300px;
+}
+h1{
+position: relative;
+left: 31px;
+ margin: 11px;
+ padding: 6px;
+font-family: redHatDisplay;
+font-weight: 900;
+}
+p:first-of-type{
+    position: relative;
+    left: 31px;
+    font-family:redHatDisplay;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 1px;
+
+
+}
+.music{
+    top: 3px;
+    left: 11px;
+    position: relative;
+    margin-top: 8px;
+    width: 267px;
+    height: 81px;
+    border-style: solid;
+    border-color: var(--Desaturated-blue);
+    border-radius: 13px;
+    background-color: var(--Desaturated-blue);
+}
+ .music a{
+    position: relative;
+    left: 143px;
+    font-weight: 700;
+    font-family:redHatDisplay;
+    color: var(--Bright-blue);
+}
+.music p{
+    font-family: redHatDisplay;
+    position: relative;
+    left: 67px;
+    top: -33px;
+}
+.music p:first-of-type{
+    font-weight: 700;
+    margin: 3px;
+}
+.music img{
+    left: 5px;
+    position: relative;
+    top: 19px;
+}
+.first{
+    font-family:redHatDisplay;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 9px 46px;
+    background-color: var(--Bright-blue);
+    left: 22px;
+    top: 30px;
+    position: relative;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+    box-shadow: 1px 4px 16px var(--Desaturated-blue) ;
+    
+
+}
+.secend{
+    color: var(--Dark-blue);
+    font-family:redHatDisplay;
+    font-weight: 700;
+    text-decoration: none;
+    left: 99px;
+    top: 60px;
+    position: relative;
+
+}
+.num-1{
+    position: relative;
+    top:4px;
+    width: 306px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-style: solid;
+    color: transparent;
+}
